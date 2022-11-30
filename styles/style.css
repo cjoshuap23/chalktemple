@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&family=Playfair+Display:wght@500&family=Roboto&display=swap');
+
+#nav_grid {
+    display: grid;
+    grid-template-columns: 80px 1fr 1fr 1fr 1fr;
+}
+.logo {
+    width: 70px;
+    padding-top: 3px;
+}
+#logo_link {
+    justify-self: center;
+    align-self: center;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+.header_title {
+    margin-left: 20px;
+    font-family: "Playfair Display", "Roboto", "Nunito", sans-serif;
+    color: #415D43;
+    font-size: 35px;
+    padding-right: 30px;
+}
+.nav_button {
+    padding-top: 40px;
+    font-size: 20px;
+    font-family: "Nunito", "Roboto", sans-serif;
+    text-decoration: none;
+    color: #415D43;
+    margin-left: 15px;
+    text-align: center;
+}
+#home-body-title {
+    text-align: center;
+    font-family: "Playfair Display", "Roboto", "Nunito", sans-serif;
+    color: #415D43;
+}
+#home-grid {
+    display: grid;
+    row-gap: 5%;
+    grid-template-columns: 50% 50%;
+    grid-row: auto;
+    margin-top: 50px;
+}
+.phoenixmesa {
+    justify-self: center;
+    align-self: center;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    width: 80%;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 5%;
+    margin-left: 5%;
+    box-shadow: 5px 5px 5px #6f7364;
+}
+.phoenix5 {
+    justify-self: center;
+    align-self: center;
+    grid-column-start: 2;
+    grid-row-start: 1;
+    width: 80%;
+    height: 100%;
+    border-radius: 8px;
+    margin-right: 5%;
+    margin-left: 5%;
+    box-shadow: 5px 5px 5px #6f7364;
+}
+.phoenix2 {
+    justify-self: center;
+    align-self: center;
+    grid-column-start: 1;
+    grid-row-start: 2;
+    width: 80%;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 5%;
+    margin-left: 5%;
+    box-shadow: 5px 5px 5px #6f7364;
+}
+.phoenix1 {
+    justify-self: center;
+    align-self: center;
+    grid-column-start: 2;
+    grid-row-start: 2;
+    width: 80%;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 5%;
+    margin-left: 5%;
+    box-shadow: 5px 5px 5px #6f7364;
+}
+#footer_grid {
+    display: grid;
+    grid-template-columns: 80px 80px 1fr 1fr 2fr;
+    margin-top: 125px;
+    margin-bottom: 25px;
+    text-align: left;
+}
+#footer_title {
+    font-family: "Playfair Display", "Roboto", "Nunito", sans-serif;
+    color: #415D43;
+    font-size: 20px;
+}
+.site-plan {
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: "Nunito", "Roboto", sans-serif;
+    text-decoration: none;
+    color: #415D43;
+}
