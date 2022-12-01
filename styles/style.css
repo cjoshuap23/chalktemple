@@ -156,3 +156,61 @@ nav {
     text-decoration: none;
     color: #415D43;
 }
+/* START OF CSS FOR SUB 1 CONTACT ME PAGE */
+#sub-1-title {
+    text-align: center;
+    font-family: "Playfair Display", "Roboto", "Nunito", sans-serif;
+    color: #415D43;
+}
+#sub-1-grid {
+    display: grid;
+    row-gap: 5%;
+    grid-template-columns: auto auto;
+    grid-row: 1 / span 2;
+    margin-top: 50px;
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-bottom: 75px;
+    column-gap: 65px;
+}
+.moroni {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px #6f7364;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.contact-info {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    text-align: center;
+    font-family: "Playfair Display", "Roboto", "Nunito", sans-serif;
+    color: #415D43;
+    font-size: 30px;
+}
+.contact-info-2 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    padding-top: 35px;
+    text-align: center;
+    font-family: "Playfair Display", "Roboto", "Nunito", sans-serif;
+    color: #415D43;
+    font-size: 30px;
+}
+.contact-para {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    padding-top: 100px;
+    text-align: center;
+    font-size: 20px;
+    font-family: "Nunito", "Roboto", sans-serif;
+    text-decoration: none;
+    color: #415D43;
+}
+.mesa {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px #6f7364;
+    grid-column-start: 2;
+    align-self: center;
+}
