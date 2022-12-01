@@ -103,7 +103,46 @@ nav {
     grid-template-columns: 80px 80px 1fr 1fr 2fr;
     margin-top: 125px;
     margin-bottom: 25px;
+    margin-left: 50px;
     text-align: left;
+}
+.fa {
+    padding: 20px;
+    font-size: 50px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  /* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+  }
+  /* Set a specific color for each brand */
+  /* Facebook */
+  .fa-facebook {
+    background: #415D43;
+    color: white;
+  }
+  /* Twitter */
+  .fa-twitter {
+    background: #415D43;
+    color: white;
+  }
+  .fa-instagram {
+    background: #415D43;
+    color: white;
+  }
+.fa-facebook-f:before, .fa-facebook:before {
+    font-size: 30px;
+}
+.fa-twitter:before {
+    content: "\f099";
+    font-size: 30px;
+}
+.fa-instagram:before {
+    content: "\f16d";
+    font-size: 30px;
 }
 #footer_title {
     font-family: "Playfair Display", "Roboto", "Nunito", sans-serif;
