@@ -1,14 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&family=Playfair+Display:wght@500&family=Roboto&display=swap');
 
-head {
-    
-}
 header {
     background-color: #415D43;
 }
 #nav_grid {
     display: grid;
-    grid-template-columns: 80px 1fr 1fr 1fr 1fr;
+    grid-template-columns: 92px 1fr 1fr 1fr 1fr;
 }
 .logo {
     width: 70px;
@@ -42,6 +39,7 @@ nav {
     text-align: center;
     font-family: "Playfair Display", "Roboto", "Nunito", sans-serif;
     color: #415D43;
+    font-size: 40px;
 }
 #home-grid {
     display: grid;
@@ -161,6 +159,7 @@ nav {
     text-align: center;
     font-family: "Playfair Display", "Roboto", "Nunito", sans-serif;
     color: #415D43;
+    font-size: 40px;
 }
 #sub-1-grid {
     display: grid;
@@ -213,4 +212,55 @@ nav {
     box-shadow: 5px 5px 5px #6f7364;
     grid-column-start: 2;
     align-self: center;
+}
+/* START OF CSS FOR SUB 2 ABOUT ME PAGE */
+#sub-2-title {
+    text-align: center;
+    font-family: "Playfair Display", "Roboto", "Nunito", sans-serif;
+    color: #415D43;
+    font-size: 40px;
+}
+#sub-2-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row: auto;
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.about-me-para-1 {
+    text-align: center;
+    justify-self: right;
+    font-size: 35px;
+    font-family: "Nunito", "Roboto", sans-serif;
+    text-decoration: none;
+    color: #415D43;
+    margin-right: 40px;
+    margin-top: 50px;
+    margin-bottom: 5%;
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
+.about-me-para-2 {
+    text-align: center;
+    justify-content: center;
+    font-size: 35px;
+    font-family: "Nunito", "Roboto", sans-serif;
+    text-decoration: none;
+    color: #415D43;
+    margin-right: 40px;
+    margin-top: 0px;
+    grid-column-start: 1;
+    grid-row-start: 2;
+}
+.portrait {
+    width: 80%;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px #6f7364;
+    align-self: center;
+    justify-self: center;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
 }
