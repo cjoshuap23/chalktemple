@@ -2,10 +2,11 @@
 
 header {
     background-color: #415D43;
+    border-radius: 10px;
 }
 #nav_grid {
     display: grid;
-    grid-template-columns: 92px 1fr 1fr 1fr 1fr;
+    grid-template-columns: 93px 1fr 1fr 1fr 1fr;
 }
 .logo {
     width: 70px;
@@ -17,7 +18,7 @@ header {
 }
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content:space-around;
 }
 .header_title {
     margin-left: 20px;
@@ -25,15 +26,26 @@ nav {
     color: white;
     font-size: 35px;
     padding-right: 30px;
+    min-width: 295px;
 }
 .nav_button {
-    padding-top: 40px;
+    margin-top: 22px;
+    padding-top: 12px;
     font-size: 20px;
     font-family: "Nunito", "Roboto", sans-serif;
     text-decoration: none;
     color: white;
-    margin-left: 15px;
     text-align: center;
+    justify-self: center;
+    width: 50%;
+    height: 40%;
+    min-width: 160px;
+    max-height: 40px;
+}
+.nav_button:hover {
+    background-color: #EDF3E2;
+    color: #415D43;
+    border-radius: 10px;
 }
 #home-body-title {
     text-align: center;
@@ -55,7 +67,7 @@ nav {
     grid-row-start: 1;
     width: 80%;
     height: auto;
-    border-radius: 8px;
+    border-radius: 10px;
     margin-right: 5%;
     margin-left: 5%;
     box-shadow: 5px 5px 5px #6f7364;
@@ -67,7 +79,7 @@ nav {
     grid-row-start: 1;
     width: 80%;
     height: 100%;
-    border-radius: 8px;
+    border-radius: 10px;
     margin-right: 5%;
     margin-left: 5%;
     box-shadow: 5px 5px 5px #6f7364;
@@ -79,7 +91,7 @@ nav {
     grid-row-start: 2;
     width: 80%;
     height: auto;
-    border-radius: 8px;
+    border-radius: 10px;
     margin-right: 5%;
     margin-left: 5%;
     box-shadow: 5px 5px 5px #6f7364;
@@ -91,14 +103,14 @@ nav {
     grid-row-start: 2;
     width: 80%;
     height: auto;
-    border-radius: 8px;
+    border-radius: 10px;
     margin-right: 5%;
     margin-left: 5%;
     box-shadow: 5px 5px 5px #6f7364;
 }
 #footer_grid {
     display: grid;
-    grid-template-columns: 80px 80px 1fr 1fr 2fr;
+    grid-template-columns: 80px 80px 80px 1fr 1fr;
     margin-top: 125px;
     margin-bottom: 25px;
     margin-left: 50px;
@@ -108,6 +120,7 @@ nav {
     padding: 20px;
     font-size: 50px;
     width: 30px;
+    max-height: 30px;
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
@@ -146,13 +159,26 @@ nav {
     font-family: "Playfair Display", "Roboto", "Nunito", sans-serif;
     color: #415D43;
     font-size: 20px;
+    text-align: center;
+    min-width: 225px;
 }
 .site-plan {
-    margin-top: 20px;
+    margin-top: 18px;
+    margin-bottom: auto;
     font-size: 20px;
     font-family: "Nunito", "Roboto", sans-serif;
     text-decoration: none;
     color: #415D43;
+    margin-right: 81%;
+    padding-left: 25px;
+    padding-top: 4px;
+    min-height: 30px;
+    min-width: 100px;
+}
+.site-plan:hover {
+    background-color: #415D43;
+    color: white;
+    border-radius: 10px;
 }
 /* START OF CSS FOR SUB 1 CONTACT ME PAGE */
 #sub-1-title {
@@ -165,7 +191,7 @@ nav {
     display: grid;
     row-gap: 5%;
     grid-template-columns: auto auto;
-    grid-row: 1 / span 2;
+    grid-row: 1 / 2;
     margin-top: 50px;
     margin-left: 75px;
     margin-right: 75px;
@@ -173,11 +199,14 @@ nav {
     column-gap: 65px;
 }
 .moroni {
-    width: 100%;
-    border-radius: 8px;
+    width: 80%;
+    border-radius: 10px;
     box-shadow: 5px 5px 5px #6f7364;
     grid-row-start: 1;
     grid-row-end: 3;
+    min-width: 300px;
+    align-self: center;
+    justify-self: center;
 }
 .contact-info {
     grid-column: 2 / 3;
@@ -186,6 +215,7 @@ nav {
     font-family: "Playfair Display", "Roboto", "Nunito", sans-serif;
     color: #415D43;
     font-size: 30px;
+    min-width: 425px;
 }
 .contact-info-2 {
     grid-column: 2 / 3;
@@ -195,6 +225,7 @@ nav {
     font-family: "Playfair Display", "Roboto", "Nunito", sans-serif;
     color: #415D43;
     font-size: 30px;
+    min-width: 465px;
 }
 .contact-para {
     grid-column: 2 / 3;
@@ -205,10 +236,11 @@ nav {
     font-family: "Nunito", "Roboto", sans-serif;
     text-decoration: none;
     color: #415D43;
+    min-width: 530px;
 }
 .mesa {
     width: 100%;
-    border-radius: 8px;
+    border-radius: 10px;
     box-shadow: 5px 5px 5px #6f7364;
     grid-column-start: 2;
     align-self: center;
@@ -240,6 +272,7 @@ nav {
     margin-bottom: 5%;
     grid-column-start: 1;
     grid-row-start: 1;
+    min-width: 600px;
 }
 .about-me-para-2 {
     text-align: center;
@@ -252,10 +285,12 @@ nav {
     margin-top: 0px;
     grid-column-start: 1;
     grid-row-start: 2;
+    min-width: 620px;
 }
 .portrait {
     width: 80%;
-    border-radius: 8px;
+    min-width: 400px;
+    border-radius: 10px;
     box-shadow: 5px 5px 5px #6f7364;
     align-self: center;
     justify-self: center;
