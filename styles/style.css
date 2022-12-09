@@ -71,6 +71,7 @@ nav {
     margin-right: 5%;
     margin-left: 5%;
     box-shadow: 5px 5px 5px #6f7364;
+    transition: transform .3s;
 }
 .phoenix5 {
     justify-self: center;
@@ -83,6 +84,7 @@ nav {
     margin-right: 5%;
     margin-left: 5%;
     box-shadow: 5px 5px 5px #6f7364;
+    transition: transform .5s;
 }
 .phoenix2 {
     justify-self: center;
@@ -95,6 +97,7 @@ nav {
     margin-right: 5%;
     margin-left: 5%;
     box-shadow: 5px 5px 5px #6f7364;
+    transition: transform .5s;
 }
 .phoenix1 {
     justify-self: center;
@@ -107,6 +110,10 @@ nav {
     margin-right: 5%;
     margin-left: 5%;
     box-shadow: 5px 5px 5px #6f7364;
+    transition: transform .5s;
+}
+.phoenixmesa:hover, .phoenix5:hover, .phoenix2:hover, .phoenix1:hover {
+    transform: scale(1.02);
 }
 #footer_grid {
     display: grid;
